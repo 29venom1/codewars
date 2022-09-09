@@ -1,3 +1,4 @@
 def wave(people):
-    # Code here
-    pass
+    print( [people for i in people ] )
+
+wave('hello')
