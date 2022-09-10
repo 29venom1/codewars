@@ -1,4 +1,7 @@
 def wave(people):
-    print( [people for i in people ] )
+    print([people[:c]+people[c].upper()+people[c+1:] for c in range(len(people))if people[c] != ' '])
 
-wave('hello')
+
+wave('two words')
+
+
